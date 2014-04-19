@@ -10,4 +10,5 @@ A set of tutorials for Controlling Grasshopper components using Python scripting
 * Automation02.py [Set Slider / Run Solver](http://www.designalyze.com/automateGHwithRhinoScript_02)
 * Automation03.py [Automating a Tower Massing Part 1 - Geometry Creation](http://www.designalyze.com/automateGHwithRhinoScript_03)
 * Automation04.py [Automating a Tower Massing Part 2 - Export Files](http://www.designalyze.com/automateGHwithRhinoScript_04)
+* Automation05.py [Unrolling and Nesting Using Python](http://www.designalyze.com/automateGHwithRhinoScript_05)
 
