@@ -17,12 +17,12 @@ row = uv*uv
 offset = 0.25
 
 #Set Sliders Based on Values above
-gh.SetSliderValue("da9f4431-7b07-479d-b7be-fbdb78ae08b4", uv)
-gh.SetSliderValue("b46e0b0e-643d-4b3a-8a96-c6d4e120e4dd", sides)
+gh.SetSliderValue("SLIDER_GUID", uv)
+gh.SetSliderValue("SLIDER_GUID", sides)
 
 #Run it and Bake it
-gh.RunSolver("TowerOptionsAutomation.gh")
-baked = gh.BakeDataInObject("85792a2f-5831-420d-9d59-881bee6ec041")
+gh.RunSolver("GRASSHOPPERFILENAME.gh")
+baked = gh.BakeDataInObject("BAKEDOBJECT_GUID")
 
 
 #Create an empty list for nesting purposes
